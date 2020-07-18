@@ -126,7 +126,7 @@ class MultiChannelTask extends DefaultTask {
             println(err.toString())
             throw new GradleException(err.toString())
         }
-        checkV2Signature(project.file(signed_apk_path))
+//        checkV2Signature(project.file(signed_apk_path))
         return signed_apk_path
     }
 
